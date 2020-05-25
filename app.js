@@ -12,5 +12,5 @@ return value;
 }
 const length = 40;
 for (let i = 0; i <= length; i++) {
-  console.log(fib(i));
+  console.log(i + '回目: ' + fib(i));
 }
